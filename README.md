@@ -6,7 +6,7 @@
 ![Solidity](https://img.shields.io/badge/solidity-0.8.24-green.svg)
 ![FHEVM](https://img.shields.io/badge/FHEVM-Zama-purple.svg)
 
-[Video](https://streamable.com/f2thb4)
+[Video](https://streamable.com/f2thb4) Privacy-Preserving Rehabilitation Treatment Tracker.mp4
 [Live](https://privacy-preserving-rehabilitation-t.vercel.app/)
 
 ## Overview
