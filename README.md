@@ -148,7 +148,7 @@ The system supports six standard rehabilitation therapy types:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/privacy-rehab-tracker.git
+git clone https://github.com/JerrySauer/Privacy-Preserving-Rehabilitation-Treatment-Tracker.git
 cd privacy-rehab-tracker
 ```
 
@@ -499,7 +499,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### Community
 - [Zama Discord](https://discord.gg/zama)
-- [GitHub Issues](https://github.com/yourusername/privacy-rehab-tracker/issues)
+- [GitHub Issues](https://github.com/JerrySauer/Privacy-Preserving-Rehabilitation-Treatment-Tracker/issues)
 - [Zama Forum](https://community.zama.ai)
 
 ### Related Projects
@@ -523,7 +523,7 @@ While this project demonstrates production-ready patterns and best practices, it
 
 For questions, support, or collaboration opportunities:
 
-- **Project Issues**: [GitHub Issues](https://github.com/yourusername/privacy-rehab-tracker/issues)
+- **Project Issues**: [GitHub Issues](https://github.com/JerrySauer/Privacy-Preserving-Rehabilitation-Treatment-Tracker/issues)
 - **Security Concerns**: security@yourproject.com
 - **General Inquiries**: info@yourproject.com
 
