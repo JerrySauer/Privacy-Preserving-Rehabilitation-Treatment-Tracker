@@ -7,6 +7,7 @@
 ![FHEVM](https://img.shields.io/badge/FHEVM-Zama-purple.svg)
 
 [Video](https://streamable.com/f2thb4) Privacy-Preserving Rehabilitation Treatment Tracker.mp4
+
 [Live](https://privacy-preserving-rehabilitation-t.vercel.app/)
 
 ## Overview
