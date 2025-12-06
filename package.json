@@ -1,0 +1,32 @@
+{
+  "name": "privacy-rehabilitation-records",
+  "version": "1.0.0",
+  "description": "Confidential rehabilitation treatment tracking using FHE encryption",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server public -p 8080 -c-1 --cors",
+    "dev": "npx http-server public -p 3000 -c-1 --cors",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "test": "npx hardhat test"
+  },
+  "keywords": [
+    "FHE",
+    "privacy",
+    "rehabilitation",
+    "medical-records",
+    "blockchain",
+    "encryption",
+    "zama"
+  ],
+  "author": "Privacy Healthcare Solutions",
+  "license": "MIT",
+  "devDependencies": {
+    "@fhevm/solidity": "^0.5.0",
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2"
+  }
+}
