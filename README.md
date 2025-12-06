@@ -5,6 +5,8 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Solidity](https://img.shields.io/badge/solidity-0.8.24-green.svg)
 ![FHEVM](https://img.shields.io/badge/FHEVM-Zama-purple.svg)
+![Video](https://streamable.com/f2thb4)
+![Live](https://privacy-preserving-rehabilitation-t.vercel.app/)
 
 ## Overview
 
