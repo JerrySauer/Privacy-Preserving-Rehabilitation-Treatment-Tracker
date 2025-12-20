@@ -1,54 +1,30 @@
 {
   "name": "privacy-rehabilitation-records",
   "version": "1.0.0",
-  "description": "Confidential rehabilitation treatment tracking using FHE encryption - FHEVM Example",
+  "description": "Confidential rehabilitation treatment tracking using FHE encryption",
   "main": "index.js",
   "scripts": {
     "start": "npx http-server public -p 8080 -c-1 --cors",
     "dev": "npx http-server public -p 3000 -c-1 --cors",
-    "compile": "hardhat compile",
-    "deploy": "hardhat run scripts/deploy.js --network sepolia",
-    "test": "hardhat test",
-    "test:coverage": "hardhat coverage",
-    "docs": "ts-node scripts/generate-docs.ts",
-    "create-example": "ts-node scripts/create-fhevm-example.ts",
-    "help:examples": "ts-node scripts/create-fhevm-example.ts --help",
-    "lint": "npm run lint:sol && npm run lint:ts",
-    "lint:sol": "solhint 'contracts/**/*.sol'",
-    "lint:ts": "eslint . --ext .ts",
-    "lint:fix": "npm run lint:sol -- --fix && npm run lint:ts -- --fix",
-    "format": "prettier --write '**/*.{js,ts,sol,json,md}'",
-    "format:check": "prettier --check '**/*.{js,ts,sol,json,md}'",
-    "build": "npm run compile && npm test",
-    "clean": "hardhat clean"
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "test": "npx hardhat test"
   },
   "keywords": [
     "FHE",
-    "FHEVM",
     "privacy",
     "rehabilitation",
     "medical-records",
     "blockchain",
     "encryption",
-    "zama",
-    "fully-homomorphic-encryption"
+    "zama"
   ],
   "author": "Privacy Healthcare Solutions",
   "license": "MIT",
   "devDependencies": {
     "@fhevm/solidity": "^0.5.0",
-    "@nomicfoundation/hardhat-ethers": "^3.0.0",
-    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
-    "@typechain/ethers-v5": "^11.1.2",
-    "@types/chai": "^4.3.4",
-    "@types/mocha": "^10.0.1",
-    "@types/node": "^20.0.0",
-    "chai": "^4.3.7",
     "hardhat": "^2.19.0",
-    "hardhat-coverage": "^0.2.2",
-    "ts-node": "^10.9.1",
-    "typechain": "^8.3.2",
-    "typescript": "^5.0.0"
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
   },
   "dependencies": {
     "ethers": "^5.7.2"
